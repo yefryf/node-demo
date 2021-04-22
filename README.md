@@ -8,7 +8,7 @@ Our goal is to write a Dockerfile for the Node.js container.
 
 First, `git clone` this repository. 
 
-This is a demonstration web server written in Nodejs. 
+This is a demonstration Nodejs web server. 
 
 To install the dependences run:
 ```
@@ -29,7 +29,7 @@ The port exported by the application is 3000
 After you have created the Dockerfile, run the follow commands to test it:
 ```
 ~$ docker build -t node-demo .
-~$ docker run -it --rm -p 3000:3000 node-demo
+~$ docker run -p 3000:3000 node-demo
 ```
 
 Go to http://localhost:3000
