@@ -21,7 +21,7 @@ node src/index.js
 ```
 
 Important: You should use node version: `12.22.1`
-```
+
 The port exported by the application is 3000
 
 ## Test the application
