@@ -33,3 +33,11 @@ After you have created the Dockerfile, run the follow commands to test it:
 ```
 
 Go to http://localhost:3000
+
+# For Docker-Compose Exercise
+To connect to mysql DB use the following environment variables:
+
+- MYSQL_HOST
+- MYSQL_USER
+- MYSQL_PASSWORD
+- MYSQL_DB
